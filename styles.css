@@ -1,0 +1,175 @@
+
+body{
+    font-family: 'Arial Narrow', Arial, sans-serif ;
+}
+
+.parent
+{
+    margin-top: 150px;
+    /* border: 10px solid black; */
+    width: 1000px;
+    height: 700px;
+    flex-direction: row;
+    
+}
+
+.task
+{
+    font-family: 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 900;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.header
+{
+   
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 149px -96px 0px 317px;
+}
+
+.lists
+{
+    font-size: 50px;
+    color: gray;
+    font-weight: 200;
+    margin-left: 5px;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+.alists
+{
+    font-size: 40px;
+    color: gray;
+    font-weight: 200;
+    margin-left: 5px;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+.im
+{
+    /* background-color: red; */
+    margin-top: 20px;
+    width: 24px;
+    height: 20px;
+    width: 20px;
+
+}
+
+.container
+{
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    padding-top: 50px;
+    align-content: space-around;
+    align-content: flex-end;
+    /* border: 2px solid black; */
+     width: 900px;
+    /*height: 400px; */
+ 
+}
+
+.cross-text
+{
+    margin-left: 30px;
+     text-decoration: line-through;  
+     color: red;
+}
+
+.checkbox
+{
+    text-align: left;
+    color: rgba(26, 24, 24, 0.699);
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+.card
+{
+    margin-left: 80px;
+    flex-flow: row;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid red;
+    box-shadow: 10px 10px #DFDFDF;
+}
+
+.card1
+{
+    
+    text-align: center;
+    color: rgb(253, 103, 103);
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    
+}
+.card2
+{
+    
+    text-align: center;
+    color: rgb(253, 103, 103);
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    
+}
+.card3
+{
+    
+    text-align: center;
+    color: rgb(253, 103, 103);
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    
+}
+/* page 2 css */
+
+
+.cardpage2
+{
+    margin-left: 500px;
+    flex-flow: row;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid red;
+    box-shadow: 10px 10px #DFDFDF;
+    height: 500px;
+    width: 500px;
+}
+
+.checkbox,#page2checkbox
+{
+    text-align: center;
+    color: rgba(26, 24, 24, 0.699);
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+.headtxt
+{
+    display: inline;
+    margin-top: 60px;
+   margin-left: 600px;
+    font-size: 80px;
+    color: red;
+}
+
+.h
+{
+    width: 200px;
+    height: 2px;
+    background-color:rgb(153, 138, 138);
+
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 370px;
+}
+.hh
+{
+    width: 200px;
+    height: 2px;
+    background-color:rgb(153, 138, 138);
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 1020px;
+}
+
